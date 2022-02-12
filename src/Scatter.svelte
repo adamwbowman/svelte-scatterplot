@@ -30,7 +30,7 @@
 </script>
 
 <style>
-	svg {
+	circle {
 		transition: transform 0.4s;
 	}
 </style>
@@ -65,5 +65,4 @@
 			</g>
 		{/each}
 	</g>
-
 </svg>
