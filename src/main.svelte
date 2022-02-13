@@ -2,6 +2,7 @@
 	import type {IrisEntry} from "./types";
 	import Scatter from "./Scatter.svelte";
 	import DimensionSelector from "./DimensionSelector.svelte";
+	import BarChart from "./BarChart.svelte";
 
 	async function loadData() {
 		let data = await fetch("./data/Iris.json");
@@ -24,6 +25,7 @@
 	<p>Y Dimension: <DimensionSelector bind:selectedColumn={yDimension} /></p>
 {/await}
 
+<BarChart />
 
 <style>
 
